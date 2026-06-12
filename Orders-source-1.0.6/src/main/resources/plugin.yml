@@ -1,0 +1,20 @@
+name: Orders
+version: 1.0.6
+main: com.demir.orders.OrdersPlugin
+api-version: '1.21'
+folia-supported: true
+softdepend:
+  - Vault
+  - Essentials
+commands:
+  orders:
+    description: Open the orders menu.
+    usage: /orders
+    aliases:
+      - order
+      - siparis
+permissions:
+  orders.use:
+    default: true
+  orders.admin:
+    default: op

@@ -1,0 +1,12 @@
+settings:
+  orders-per-page: 45
+  max-open-orders-per-player: 10
+  order-expire-days: 30
+  currency-symbol: "$"
+messages:
+  no-economy: "<red>Economy plugin bulunamadi. Vault destekli bir money plugini kur."
+  created: "<green>Order acildi."
+  cancelled: "<red>Islem iptal edildi."
+  delivered: "<green>Teslim edildi ve paran yatirildi."
+  not-enough-money: "<red>Bu order icin yeterli paran yok."
+  not-enough-items: "<red>Uzerinde teslim edilecek yeterli item yok."
